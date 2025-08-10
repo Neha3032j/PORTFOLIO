@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Start page wrapper -->
+    <div class="page-wrapper mt-0" ></div>
+    <!-- start header -->
+    <header id="header">
+        <div class="wpo-site-header wpo-header-style-1" id="sticky-header">
+            <nav class="navigation navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="row align-items-center navbar">
+                        <div class="col-md-3 col-3 d-lg-none d-block">
+                            <div class="mobail-menu">
+                                <button type="button" class="navbar-toggler open-btn">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar first-angle"></span>
+                                    <span class="icon-bar middle-angle"></span>
+                                    <span class="icon-bar last-angle"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-6 d-lg-block d-none">
+                            <nav class="social-info">
+                                <ul>
+                                    <li><a class="text-decoration-none" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a class="text-decoration-none" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a class="text-decoration-none" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a class="text-decoration-none" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 col-6 d-lg-none dl-block">
+                            <div class="navbar-header">
+                            </div>
+                            <a class="navbar-brand text-decoration-none" href="index.html">
+                                <img src="images/illustration/logo.svg" alt=""></a>
+                        </div>
+                        <div class="col-lg-8 col-md-1 col-1">
+                            <div id="navbar" class="collapse navbar-collapse navigation-holder">
+                                <button class="menu-close"><i class="ti-close"></i></button>
+                                <ul class="nav navbar-nav navbar mb-2 mb-lg-0 small-nav">
+                                    <li class="menu-item-has-children nav-item">
+                                        <a href=" " class="text-decoration-none" >Home</a>
+                                    </li>
+                                    <li class="nav-item"><a class="text-decoration-none" href="#story">Story</a></li>
+                                    <li class="nav-item"><a class="text-decoration-none" href="#gallery">Gallery</a></li>
+                                    <li class="brand-logo">
+                                        <a href="index.html"><img class="log" src="images/illustration/logo.svg" alt=""></a>
+                                    </li>
+                                    <li class="nav-item"><a class="text-decoration-none" href="#rsvp">RSVP</a></li>
+                                    <li class="nav-item"><a class="text-decoration-none" href="#event">Event</a></li>
+                                    <li class="nav-item"><a class="text-decoration-none" href="#blog">Blog</a></li>
+                                </ul>
+
+                            </div><!-- end of nav-collapse -->
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-2">
+                            <div class="header-right">
+                                <div class="header-search-form-wrapper">
+                                    <div class="cart-search-contact">
+                                        <button class="search-toggle-btn"><i class="bi bi-search"></i></button>
+                                    </div>
+                                </div>
+                                <div class="mini-cart">
+                                    <button class="cart-toggle-btn"> <i class="bi bi-cart3"></i>
+                                        <span class="cart-count">2</span></button>
+                                    <div class="mini-cart-content">
+                                        <button class="mini-cart-close"><i class="ti-close"></i></button>
+                                        <div class="mini-cart-items">
+                                            <div class="mini-cart-item clearfix">
+                                                <div class="mini-cart-item-image">
+                                                    <a href="#"><img src="images/illustration/img-1.jpg" alt=""></a>
+                                                </div>
+                                                <div class="mini-cart-item-des">
+                                                    <a href="#">Wedding Gown</a>
+                                                    <span class="mini-cart-item-price">$20.15 x 1</span>
+                                                    <span class="mini-cart-item-quantity">
+                                                        <a href="#"><i class="ti-close"></i></a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="mini-cart-item clearfix">
+                                                <div class="mini-cart-item-image">
+                                                    <a href="#"><img src="images/illustration/img-2.jpg" alt=""></a>
+                                                </div>
+                                                <div class="mini-cart-item-des">
+                                                    <a href="#">Bridal Flower</a>
+                                                    <span class="mini-cart-item-price">$13.25 x 2</span>
+                                                    <span class="mini-cart-item-quantity">
+                                                        <a href="#"><i class="ti-close"></i></a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini-cart-action clearfix">
+                                            <span class="mini-checkout-price">Subtotal:
+                                                <span>$215.14</span></span>
+                                            <div class="mini-btn">
+                                                <a href="#" class="view-cart-btn s1">Checkout</a>
+                                                <a href="#" class="view-cart-btn">View Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end of container -->
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start of hero -->
+    <section class="static-hero-s2">
+        <div class="hero-container">
+            <div class="hero-inner">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-6 col-12">
+                            <div class="wpo-static-hero-inner">
+                                <div class="shape-1 wow fadeInUp">
+                                    <img src="images/illustration/shape5.png" alt="">
+                                </div>
+                                <div class="slide-title wow fadeInUp">
+                                    <h2>Srivalli &amp; Bhuban</h2>
+                                </div>
+                                <div class="slide-text wow fadeInUp">
+                                    <p>We Are Getting Married Jul 8, 2022</p>
+                                </div>
+                                <div class="wpo-wedding-date wow fadeInUp">
+                                    <div class="clock-grids">
+                                        <div id="clock" data-date="2024/02/09 00:00">
+                                            <div class="box">
+                                                <div>
+                                                     <div class="time">00</div> 
+                                                     <span>Days</span> 
+                                                </div>
+                                            </div>
+                                            <div class="box">
+                                                <div>
+                                                    <div class="time">00</div> 
+                                                    <span>Hours</span> 
+                                                </div>
+                                            </div>
+                                            <div class="box">
+                                                <div>
+                                                    <div class="time">00</div> 
+                                                    <span>Mins</span> 
+                                                </div>
+                                            </div>
+                                            <div class="box">
+                                                <div>
+                                                    <div class="time">00</div> 
+                                                    <span>Secs</span> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shape-2 wow fadeInUp">
+                                    <img src="images/illustration/shape6.png" alt="">
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-12">
+                            <div class="static-hero-right">
+                                <div class="static-hero-img">
+                                    <div class="static-hero-img-inner wow zoomIn">
+                                        <img src="images/illustration/couple.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="static-hero-shape">
+                                    <img src="images/illustration/frame.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of hero -->
+
+    <!-- start couple section -->
+    <section class="wpo-couple-section-s3 section-padding" id="couple">
+        <div class="container">
+            <div class="couple-area clearfix">
+                <div class="row ">
+                    <div class="col col-md-4 col-12">
+                        <div class="couple-item wow fadeInLeftSlow">
+                            <div class="couple-img">
+                                <img src="images/illustration/img-3.jpg" alt="">
+                            </div>
+                            <div class="couple-text">
+                                <h3>Srivalli Ahuza</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
+                                    nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
+                                    blandit.</p>
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-12">
+                        <div class="middle-couple-shape wow fadeInUp">
+                            <div class="shape floating-item">
+                                <img src="images/illustration/shape.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-12">
+                        <div class="couple-item wow fadeInRightSlow">
+                            <div class="couple-img">
+                                <img src="images/illustration/img-4.jpg" alt="">
+                            </div>
+                            <div class="couple-text">
+                                <h3>Bhaban Batra</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna orci auctor vitae
+                                    nisl. Erat fringilla pellentesque amet tempus. Commodo mi vitae, sagittis
+                                    blandit.</p>
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <!-- end couple section -->
+
+    <!-- wpo-video section -->
+    <section class="wpo-video-section-s3">
+        <h2 class="hidden">some</h2>
+        <div class="container-fluid">
+            <div class="video-wrap">
+                <img src="images/illustration/cta3.jpg" alt="">
+                <a href="#" class="video-btn" data-type="iframe"><i class="bi bi-play"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End wpo-video section -->
+
+    <!-- wpo story section -->
+    <section class="wpo-story-section-s3 section-padding pb-0" id="story">
+        <div class="container">
+            <div class="wpo-section-title">
+                <h4>Our Story</h4>
+                <h2>Our Sweet love story</h2>
+            </div>
+            <div class="wpo-story-wrap">
+                <div class="wpo-story-item">
+                    <div class="wpo-story-img-wrap wow fadeInLeftSlow">
+                        <div class="wpo-story-img">
+                            <img src="images/illustration/5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="wpo-story-content  wow fadeInRightSlow">
+                        <div class="wpo-story-content-inner">
+                            <h2>First Time We Meet</h2>
+                            <span>12 Feb 2016</span>
+                            <p>Lorem ipsum dolor sit amet, constetur adicng elit. Ultricies nulla mi tempus mcorper
+                                for praesent. Ultricies interdum volutpat morbi nam ornare neque elit leo, diam.
+                                Malesuada enim ac amurna tempor vel duis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-story-item">
+                    <div class="wpo-story-img-wrap wow fadeInRightSlow">
+                        <div class="wpo-story-img">
+                            <img src="images/illustration/6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="wpo-story-content wow fadeInLeftSlow">
+                        <div class="wpo-story-content-inner">
+                            <h2>Our First Date</h2>
+                            <span>23 Apr 2016</span>
+                            <p>Lorem ipsum dolor sit amet, constetur adicng elit. Ultricies nulla mi tempus mcorper
+                                for praesent. Ultricies interdum volutpat morbi nam ornare neque elit leo, diam.
+                                Malesuada enim ac amurna tempor vel duis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wpo-story-item">
+                    <div class="wpo-story-img-wrap wow fadeInLeftSlow" >
+                        <div class="wpo-story-img">
+                            <img src="images/illustration/7.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="wpo-story-content wow fadeInRightSlow">
+                        <div class="wpo-story-content-inner">
+                            <h2>She Said Yes</h2>
+                            <span>10 Mar 2016</span>
+                            <p>Lorem ipsum dolor sit amet, constetur adicng elit. Ultricies nulla mi tempus mcorper
+                                for praesent. Ultricies interdum volutpat morbi nam ornare neque elit leo, diam.
+                                Malesuada enim ac amurna tempor vel duis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <!-- End wpo story section -->
+
+    <!-- start wpo-portfolio-section -->
+    <section class="wpo-portfolio-section-s2 section-padding pb-0" id="gallery">
+        <h2 class="hidden">some</h2>
+        <div class="container-fluid">
+            <div class="sortable-gallery">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portfolio-grids gallery-container clearfix">
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/12.jpg" class="fancybox">
+                                        <img src="images/illustration/12.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/15.jpg" class="fancybox">
+                                        <img src="images/illustration/15.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/13.jpg" class="fancybox">
+                                        <img src="images/illustration/13.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/16.jpg" class="fancybox">
+                                        <img src="images/illustration/16.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/14.jpg" class="fancybox">
+                                        <img src="images/illustration/14.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <a href="images/illustration/17.jpg" class="fancybox">
+                                        <img src="images/illustration/17.jpg" alt="" class="img img-responsive">
+                                        <div class="hover-content">
+                                            <i class="bi bi-plus-lg"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end container -->
+    </section>
+    <!-- end wpo-portfolio-section -->
+
+    <!-- start of wpo-contact-section -->
+    <section class="wpo-contact-section-s4 section-padding" id="rsvp">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col col-lg-12 col-md-12 col-12">
+                    <div class="wpo-contact-section-wrapper">
+                        <div class="wpo-contact-section-inner">
+                            <div class="wpo-contact-form-area">
+                                <div class="wpo-section-title">
+                                    <h4>Are You Attending?</h4>
+                                </div>
+                                <form method="post" class="contact-validation-active" id="contact-form-main" novalidate="novalidate">
+                                    <div>
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                    </div>
+                                    <div>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="radio-buttons">
+                                        <p>
+                                            <input type="radio" id="attend" name="radio-group" checked="">
+                                            <label for="attend">Yes, I will be there</label>
+                                        </p>
+                                        <p>
+                                            <input type="radio" id="not" name="radio-group">
+                                            <label for="not">Sorry, I can’t come</label>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <select name="guest" class="form-control">
+                                            <option disabled="disabled" selected="">Number Of Guests</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                            <option>03</option>
+                                            <option>04</option>
+                                            <option>05</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control" name="what" id="what" placeholder="What Will You Be Attending">
+                                    </div>
+                                    <div>
+                                        <select name="meal" class="form-control last">
+                                            <option disabled="disabled" selected="">Meal Preferences</option>
+                                            <option>Chicken Soup</option>
+                                            <option>Motton Kabab</option>
+                                            <option>Chicken BBQ</option>
+                                            <option>Mix Salad</option>
+                                            <option>Beef Ribs </option>
+                                        </select>
+                                    </div>
+                                    <div class="submit-area">
+                                        <button type="submit" class="theme-btn">RSVP</button>
+                                        <div id="c-loader">
+                                            <i class="bi bi-arrow-clockwise"></i>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix error-handling-messages">
+                                        <div id="success">Thank you</div>
+                                        <div id="error"> Error occurred while sending email. Please try again later.
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="shape-1"><img class="floating-item wow fadeInLeftSlow" src="images/illustration/shape-1.png" alt=""></div>
+                        <div class="shape-2"><img class="floating-item wow fadeInRightSlow" src="images/illustration/shape-2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of wpo-contact-section -->
+
+    <!-- start wpo-partners-section -->
+    <section class="wpo-partners-section">
+        <h2 class="hidden">Partners</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="partner-grids partners-slider owl-carousel owl-loaded owl-drag">
+                        
+                    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
+                        <div class="carousel-inner">
+                            <div class="carousel-item" >
+                                <div class="grid">
+                                    <img src="images/illustration/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item" >
+                                <div class="grid">
+                                    <img src="images/illustration/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                    <img src="images/illustration/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                    <img src="images/illustration/1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="grid">
+                                    <img src="images/illustration/2.png" alt="">
+                                
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="grid">
+                                    <img src="images/illustration/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item" >
+                                <div class="grid">
+                                    <img src="images/illustration/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                    <img src="images/illustration/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                   <img src="images/illustration/1.png" alt="">
+                                 </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                    <img src="images/illustration/2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="grid">
+                                    <img src="images/illustration/3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="owl-nav disabled">
+                            <button type="button" role="presentation" class="owl-prev">
+                                <span aria-label="Previous">‹</span>
+                            </button>
+                            <button type="button" role="presentation" class="owl-next">
+                                <span aria-label="Next">›</span>
+                            </button>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <!-- End wpo-partners-section -->
+
+    <!-- start wpo-event-section -->
+    <section class="wpo-event-section section-padding pb-0" id="event">
+        <div class="container">
+            <div class="wpo-section-title">
+                <h4>Our Wedding</h4>
+                <h2>When &amp; Where</h2>
+            </div>
+            <div class="wpo-event-wrap">
+                <div class="row">
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="images/illustration/4.jpg" alt="">
+                                <div class="title">
+                                    <h2>The Reception</h2>
+                                </div>
+                            </div>
+                            <div class="wpo-event-text">
+                                <ul>
+                                    <li>Monday, 12 Apr. 2022
+                                        1:00 PM – 2:30 PM</li>
+                                    <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                    <li>+1 234-567-8910</li>
+                                    <li> <a class="popup-gmaps" href="#">See
+                                            Location</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="images/illustration/5 (1).jpg" alt="">
+                                <div class="title">
+                                    <h2>The Ceremony</h2>
+                                </div>
+                            </div>
+                            <div class="wpo-event-text">
+                                <ul>
+                                    <li>Monday, 12 Apr. 2022
+                                        1:00 PM – 2:30 PM</li>
+                                    <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                    <li>+1 234-567-8910</li>
+                                    <li> <a class="popup-gmaps" href="#">See
+                                            Location</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="images/illustration/6 (1).jpg" alt="">
+                                <div class="title">
+                                    <h2>The Party</h2>
+                                </div>
+                            </div>
+                            <div class="wpo-event-text">
+                                <ul>
+                                    <li>Monday, 12 Apr. 2022
+                                        1:00 PM – 2:30 PM</li>
+                                    <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
+                                    <li>+1 234-567-8910</li>
+                                    <li> <a class="popup-gmaps" href="#">See
+                                            Location</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end container -->
+    </section>
+    <!-- End wpo-event-section -->
+
+    <!-- start wpo-blog-section -->
+    <section class="wpo-blog-section section-padding" id="blog">
+        <div class="container">
+            <div class="wpo-section-title">
+                <h4>Latest News</h4>
+                <h2>Read Our Wedding News</h2>
+            </div>
+            <div class="wpo-blog-items">
+                <div class="sortable-gallery">
+                    <div class="gallery-filters"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="wpo-blog-grids gallery-container clearfix" >
+                                <div class="grid" >
+                                    <div class="wpo-blog-item">
+                                        <div class="wpo-blog-img">
+                                            <img src="images/illustration/img-5.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-blog-content">
+                                            <ul>
+                                                <li>25</li>
+                                                <li>June</li>
+                                            </ul>
+                                            <h2><a href="#">Photography is the important part of
+                                                    wedding.</a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid" >
+                                    <div class="wpo-blog-item">
+                                        <div class="wpo-blog-img">
+                                            <img src="images/illustration/img-6.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-blog-content">
+                                            <h2><a href="#">Best Wedding Gown For
+                                                    Your Dream Day</a>
+                                            </h2>
+                                            <ul>
+                                                <li>22 Nov 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="wpo-blog-item">
+                                        <div class="wpo-blog-img">
+                                            <img src="images/illustration/img-7.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-blog-content">
+                                            <h2><a href="#">Top 10 wedding fresh flower
+                                                    decoration idea.</a>
+                                            </h2>
+                                            <ul>
+                                                <li>28 Nov 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="wpo-blog-item">
+                                        <div class="wpo-blog-img">
+                                            <img src="images/illustration/img-8.jpg" alt="">
+                                        </div>
+                                        <div class="wpo-blog-content">
+                                            <h2><a href="#">Best wedding gift you may like
+                                                    &amp; choose.</a>
+                                            </h2>
+                                            <ul>
+                                                <li>25 Sep 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <!-- End wpo-blog-section -->
+
+    <!-- wpo-site-footer start -->
+    <div class="wpo-site-footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-image">
+                        <a class="logo" href="#"><img src="images/illustration/logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Wedding</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="link-widget">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-dribbble"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#"><i class="bi bi-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <p>© Copyright 2022 | <a href="index.html">LoveLove</a> | All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- wpo-site-footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
+</body>
+</html>
